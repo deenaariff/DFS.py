@@ -8,6 +8,7 @@ Swift is an project under the OpenStack organization designed to offer Object St
 
 #### Consistent Hashing
 
+![alt text](https://raw.githubusercontent.com/deenaariff/DFS.py/master/media/ConsistentHashing.png)
 
 ### Directory Structure
 
