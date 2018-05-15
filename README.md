@@ -89,7 +89,7 @@ Example: The following will search in the directory Client/test/data.txt.
 
 The *download* command will store files in the path relative to client.py (Client/ directory).
 
-#### Testing Failures and Extra Explanation
+#### Testing Deletion of File / Simulate Disk Failure
 
 At least one copy of the file the cluster stores can be deleted from either the original disk or backup disk. The machine will accomadate this delete by healing the cluster as needed when any other command is run. It will 
 necessarily attempt to check for any corruption upon the list, add, and remove commands to ensure consistency amongst the data. 
