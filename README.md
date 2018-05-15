@@ -56,7 +56,7 @@ Client.py should be run with two command line arguments, after server.py is run.
 arg[0]: server-ip-address as listed in server output
 arg[1]: server-port as listed in server output
 
-#### Use Client
+#### How to Use Client
 
 Client will ask for user-name by interact with clients in first user prompt.
 
