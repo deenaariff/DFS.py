@@ -1,19 +1,13 @@
-## COEN 241 P1 Assignment
+## DFS.py
 
-### Assignment Info
+### Background
 
- - Author: Deen Aariff
- - Programming Language: Python 2.7
- - Resources Used:
-	 - used reference for writing code to check for available ports (in check_port.sh) from https://unix.stackexchange.com/questions/55913/whats-the-easiest-way-to-find-an-unused-local-port?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
-- Modules used (standard library python 2.7)
-	- os
-	- json
-	- subprocess
-	- shutil
-	- hashlib
-	- math
-	- socket
+#### OpenStack-Swift
+
+Swift is an project under the OpenStack organization designed to offer Object Stores that simplified API. It's goals include acheiving durabilit, availability, and concurrency across all objects stores. This project is a simplified version of OpenStack Swift, to store files across a distributed cluster of nodes.
+
+#### Consistent Hashing
+
 
 ### Directory Structure
 
@@ -59,22 +53,24 @@ Client.py should be run with two command line arguments, after server.py is run.
 arg[0]: server-ip-address as listed in server output
 arg[1]: server-port as listed in server output
 
-#### Use Client
+#### How to Use Client
 
 Client will ask for user-name by interact with clients in first user prompt.
 
 Client will display prompt to enter the following commands as specified by the Assignment Instructions.
 
 
-`# |  Command  |   Argument   |           Description"`
-`---------------------------------------------------------------`
-`1 |  download   | filename.ext |  Display where the object is saved`
-`2 |    list     |   <no_arg>   |  Display all files for the user`
-`3 |   upload    | filename.ext |  Display in which disks object is saved`
-`4 |   delete    | filename.ext |  Delete object`
-`5 |     add     |  ip_address  |  Add a node to the cluster`
-`6 |   remove    |  ip_address  |  Remove a node from the cluster`
-`7 |      q      |   <no_arg>   |  Delete object`
+```
+# |  Command  |   Argument   |           Description"
+---------------------------------------------------------------
+1 |  download   | filename.ext |  Display where the object is saved
+2 |    list     |   <no_arg>   |  Display all files for the user
+3 |   upload    | filename.ext |  Display in which disks object is saved
+4 |   delete    | filename.ext |  Delete object
+5 |     add     |  ip_address  |  Add a node to the cluster
+6 |   remove    |  ip_address  |  Remove a node from the cluster
+7 |      q      |   <no_arg>   |  Delete object
+```
 
 All commands can be entered into the >> shell as 'cmd arg'.
 
@@ -90,9 +86,9 @@ Example: The following will search in the directory Client/test/data.txt.
 
 The *download* command will store files in the path relative to client.py (Client/ directory).
 
-#### Testing Failures and Extra Explanation
+#### Testing Deletion of File / Simulate Disk Failure
 
-At least one copy of the file the cluster stores can be deleted from either the original disk or backup disk. The machine will accomadate this delete by healing the cluster as needed when any other command is run. It will 
+At least one copy of the file the cluster stores can be deleted from either the original disk or backup disk. The machine will accomodate this delete by healing the cluster as needed when any other command is run. It will 
 necessarily attempt to check for any corruption upon the list, add, and remove commands to ensure consistency amongst the data. 
 
 The 'remove' command will move the files to different nodes in the table to adjust for any files that exist on a node being deleted prior to deletion.
