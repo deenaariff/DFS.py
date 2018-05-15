@@ -1,16 +1,11 @@
 ## DFS.py
 
-### INFO
+### Background
 
- - Language: Python 2.7
- - Python Modules used:
-	- os
-	- json
-	- subprocess
-	- shutil
-	- hashlib
-	- math
-	- socket
+#### OpenStack-Swift
+
+#### Consistent Hashing
+
 
 ### Directory Structure
 
@@ -91,7 +86,7 @@ The *download* command will store files in the path relative to client.py (Clien
 
 #### Testing Deletion of File / Simulate Disk Failure
 
-At least one copy of the file the cluster stores can be deleted from either the original disk or backup disk. The machine will accomadate this delete by healing the cluster as needed when any other command is run. It will 
+At least one copy of the file the cluster stores can be deleted from either the original disk or backup disk. The machine will accomodate this delete by healing the cluster as needed when any other command is run. It will 
 necessarily attempt to check for any corruption upon the list, add, and remove commands to ensure consistency amongst the data. 
 
 The 'remove' command will move the files to different nodes in the table to adjust for any files that exist on a node being deleted prior to deletion.
