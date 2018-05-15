@@ -1,12 +1,9 @@
-## COEN 241 P1 Assignment
+## DFS.py
 
-### Assignment Info
+### INFO
 
- - Author: Deen Aariff
- - Programming Language: Python 2.7
- - Resources Used:
-	 - used reference for writing code to check for available ports (in check_port.sh) from https://unix.stackexchange.com/questions/55913/whats-the-easiest-way-to-find-an-unused-local-port?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
-- Modules used (standard library python 2.7)
+ - Language: Python 2.7
+ - Python Modules used:
 	- os
 	- json
 	- subprocess
@@ -66,15 +63,17 @@ Client will ask for user-name by interact with clients in first user prompt.
 Client will display prompt to enter the following commands as specified by the Assignment Instructions.
 
 
-`# |  Command  |   Argument   |           Description"`
-`---------------------------------------------------------------`
-`1 |  download   | filename.ext |  Display where the object is saved`
-`2 |    list     |   <no_arg>   |  Display all files for the user`
-`3 |   upload    | filename.ext |  Display in which disks object is saved`
-`4 |   delete    | filename.ext |  Delete object`
-`5 |     add     |  ip_address  |  Add a node to the cluster`
-`6 |   remove    |  ip_address  |  Remove a node from the cluster`
-`7 |      q      |   <no_arg>   |  Delete object`
+```
+# |  Command  |   Argument   |           Description"
+---------------------------------------------------------------
+1 |  download   | filename.ext |  Display where the object is saved
+2 |    list     |   <no_arg>   |  Display all files for the user
+3 |   upload    | filename.ext |  Display in which disks object is saved
+4 |   delete    | filename.ext |  Delete object
+5 |     add     |  ip_address  |  Add a node to the cluster
+6 |   remove    |  ip_address  |  Remove a node from the cluster
+7 |      q      |   <no_arg>   |  Delete object
+```
 
 All commands can be entered into the >> shell as 'cmd arg'.
 
