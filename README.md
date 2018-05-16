@@ -6,7 +6,7 @@
 
 Swift is an project under the OpenStack organization designed to offer Object Stores that simplified API. It's goals include acheiving durabilit, availability, and concurrency across all objects stores. This project is a simplified version of OpenStack Swift, to store files across a distributed cluster of nodes.
 
-#### Consistent Hashing
+#### Consistent Hashing Approach
 
 ![alt text](https://raw.githubusercontent.com/deenaariff/DFS.py/master/media/ConsistentHashing.png)
 
