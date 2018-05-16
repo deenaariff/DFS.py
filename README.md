@@ -62,7 +62,7 @@ Client will display prompt to enter the following commands as specified by the A
 
 
 ```
-# |  Command  |   Argument   |           Description"
+# |   Command   |   Argument   |           Description"
 ---------------------------------------------------------------
 1 |  download   | filename.ext |  Display where the object is saved
 2 |    list     |   <no_arg>   |  Display all files for the user
