@@ -1,6 +1,6 @@
 ## HashBox
 
-![alt text](https://raw.githubusercontent.com/deenaariff/DFS.py/master/media/hashbox.png)
+<img src="https://raw.githubusercontent.com/deenaariff/DFS.py/master/media/hashbox.png" alt="drawing" width="200px"/>
 
 
 ### Background
