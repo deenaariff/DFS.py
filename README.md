@@ -1,4 +1,7 @@
-## DFS.py
+## HashBox
+
+![alt text](https://raw.githubusercontent.com/deenaariff/DFS.py/master/media/hashbox.png)
+
 
 ### Background
 
